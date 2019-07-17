@@ -62,57 +62,57 @@ Version: 1.0
 
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:400,500');
 
-@import "variable.scss";
+@import "inc/_variable.scss";
 
 /**
  * 1. - NORMALIZE CSS
  * -----------------------------------------------------------------------------
  */
  
-@import "normalize.scss";
+@import "inc/_normalize.scss";
 
 /**
  * 2. GLOBAL STYLES
  * -----------------------------------------------------------------------------
  */
 
-@import "global.scss";
+@import "inc/_global.scss";
 
 /**
  * 3. - COMPONENTS
  * -----------------------------------------------------------------------------
  */
-@import "components.scss";
+@import "inc/_components.scss";
 
 /**
  * 4. - LOGO & NAVIGATION
  * -----------------------------------------------------------------------------
  */
-@import "logo-nav.scss";
+@import "inc/_logo-nav.scss";
 
 /**
  * 5. - HOME
  * -----------------------------------------------------------------------------
  */
-@import "home.scss";
+@import "inc/_home.scss";
 
 /**
  * 6. - SECTION
  * -----------------------------------------------------------------------------
  */
-@import "section.scss";
+@import "inc/_section.scss";
 
 /**
  * 7. - FOOTER
  * -----------------------------------------------------------------------------
  */
-@import "footer.scss";
+@import "inc/_footer.scss";
 
 /**
  * 8. - RESPONSIVE
  * -----------------------------------------------------------------------------
  */
-@import "responsive.scss";
+@import "inc/_responsive.scss";
 
 
 
