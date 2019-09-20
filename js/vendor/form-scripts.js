@@ -15,13 +15,13 @@ function submitForm(){
     // Initiate Variables With Form Content
     var name = $("#p_name").val();
     var email = $("#p_email").val();
-    var subject = $("#p_subject").val();
+    var blogID = $("#p_blogID").val();
     var message = $("#p_message").val();
 
     $.ajax({
         type: "POST",
-        url: "php/form-process.php",
-        data: "name=" + name + "&email=" + email + "&subject=" + subject + "&message=" + message,
+        url: "https://www.blogger.com/contact-form.do",
+        data: "name=" + name + "&email=" + email + "&blogID=" + blogID + "&message=" + message,
         success : function(text){
             if (text == "success"){
                 formSuccess();
