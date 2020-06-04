@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bbbbd00b33347d16f8bf",
+    "revision": "8db2bc35ece49c5ae403",
     "url": "/css/about.4f606eaa.css"
   },
   {
-    "revision": "1573bd94d93a49547434",
+    "revision": "d38f8f8149bb8d95c67f",
     "url": "/css/app.b0505308.css"
   },
   {
-    "revision": "509191bc618b964d3766",
+    "revision": "a18f0f2597bfb871029c",
     "url": "/css/daily-feeding',.4f606eaa.css"
   },
   {
-    "revision": "76f581f8fc3749c61b91",
+    "revision": "0b255a9b8a8bb4f5d9c5",
     "url": "/css/educational-assistance',.4f606eaa.css"
   },
   {
@@ -20,15 +20,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/events.4f606eaa.css"
   },
   {
-    "revision": "1dc4437a1a7a06226480",
+    "revision": "31b1878a3f02d9d40584",
     "url": "/css/how-to-help.4f606eaa.css"
   },
   {
-    "revision": "596f61f92ab33ccd7536",
+    "revision": "aff688df3f4cf594dc9d",
     "url": "/css/livelihood-program',.4f606eaa.css"
   },
   {
-    "revision": "0c69a77334fce4f7ff51",
+    "revision": "8661a5be212471c5d49c",
     "url": "/css/medical-dental',.4f606eaa.css"
   },
   {
@@ -36,19 +36,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/our-centers.4f606eaa.css"
   },
   {
-    "revision": "fba48b27c058ceddf8aa",
+    "revision": "ea498440dc679b5997ad",
     "url": "/css/our-staff.4f606eaa.css"
   },
   {
-    "revision": "75aed05fc0627403f141",
+    "revision": "c9900aabf4ae85c1f2f5",
     "url": "/css/parents-collaboration',.4f606eaa.css"
   },
   {
-    "revision": "095e3a0dd1622591858c",
+    "revision": "09ab54af496bbc128e7c",
     "url": "/css/programs-and-services',.4f606eaa.css"
   },
   {
-    "revision": "86fec956896045961dd5",
+    "revision": "e97507c88d67a4858a46",
     "url": "/css/spiritual-formation',.4f606eaa.css"
   },
   {
@@ -96,8 +96,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/daily-feeding.ffc45b06.jpg"
   },
   {
+    "revision": "d813825039f48f163f12e14699cd0595",
+    "url": "/img/dummy-img-1920x900.d8138250.jpg"
+  },
+  {
     "revision": "26a010b7b6991959b6e9ff94380c9ba5",
     "url": "/img/dummy-img-400x400.26a010b7.jpg"
+  },
+  {
+    "revision": "956337c6850b638ed816380f0f30bc2d",
+    "url": "/img/dummy-img-600x400.956337c6.jpg"
   },
   {
     "revision": "6fd4b554d6b62cf71ba9ea43f472de2c",
@@ -176,64 +184,64 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/sr-mafel.bdb51b2c.jpg"
   },
   {
-    "revision": "a7538630eef9771977575a1e8aa74b5e",
+    "revision": "eea435b073fe6828aedeb797f5b6d466",
     "url": "/index.html"
   },
   {
-    "revision": "bbbbd00b33347d16f8bf",
-    "url": "/js/about.044c4b07.js"
+    "revision": "8db2bc35ece49c5ae403",
+    "url": "/js/about.ffe0df4e.js"
   },
   {
-    "revision": "1573bd94d93a49547434",
-    "url": "/js/app.2936c12e.js"
+    "revision": "d38f8f8149bb8d95c67f",
+    "url": "/js/app.9ec350a5.js"
   },
   {
     "revision": "94b19b56bd4db63ab6da",
     "url": "/js/chunk-vendors.b29e1eb5.js"
   },
   {
-    "revision": "509191bc618b964d3766",
-    "url": "/js/daily-feeding',.4d4f9742.js"
+    "revision": "a18f0f2597bfb871029c",
+    "url": "/js/daily-feeding',.884a1be7.js"
   },
   {
-    "revision": "76f581f8fc3749c61b91",
-    "url": "/js/educational-assistance',.b5b61f41.js"
+    "revision": "0b255a9b8a8bb4f5d9c5",
+    "url": "/js/educational-assistance',.0db4f02e.js"
   },
   {
     "revision": "7aaeeeac1139659b34ad",
     "url": "/js/events.81b5dae4.js"
   },
   {
-    "revision": "1dc4437a1a7a06226480",
-    "url": "/js/how-to-help.c0416724.js"
+    "revision": "31b1878a3f02d9d40584",
+    "url": "/js/how-to-help.cd334d17.js"
   },
   {
-    "revision": "596f61f92ab33ccd7536",
-    "url": "/js/livelihood-program',.db1e50d3.js"
+    "revision": "aff688df3f4cf594dc9d",
+    "url": "/js/livelihood-program',.ce9b0580.js"
   },
   {
-    "revision": "0c69a77334fce4f7ff51",
-    "url": "/js/medical-dental',.88e96563.js"
+    "revision": "8661a5be212471c5d49c",
+    "url": "/js/medical-dental',.3120a4c5.js"
   },
   {
     "revision": "9f232d7308d304f6d2fb",
     "url": "/js/our-centers.512ba14a.js"
   },
   {
-    "revision": "fba48b27c058ceddf8aa",
-    "url": "/js/our-staff.f2ee560d.js"
+    "revision": "ea498440dc679b5997ad",
+    "url": "/js/our-staff.2aa33277.js"
   },
   {
-    "revision": "75aed05fc0627403f141",
-    "url": "/js/parents-collaboration',.94d92e6d.js"
+    "revision": "c9900aabf4ae85c1f2f5",
+    "url": "/js/parents-collaboration',.86fa7d39.js"
   },
   {
-    "revision": "095e3a0dd1622591858c",
-    "url": "/js/programs-and-services',.3997665d.js"
+    "revision": "09ab54af496bbc128e7c",
+    "url": "/js/programs-and-services',.0ee38d6f.js"
   },
   {
-    "revision": "86fec956896045961dd5",
-    "url": "/js/spiritual-formation',.43926d94.js"
+    "revision": "e97507c88d67a4858a46",
+    "url": "/js/spiritual-formation',.8f52f73c.js"
   },
   {
     "revision": "ed7986b139f9890ed716c73531e13d4f",
