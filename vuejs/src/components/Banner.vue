@@ -1,57 +1,98 @@
 <template>
   <div>
 	<!-- BANNER -->
-	<div id="oc-fullslider" class="banner owl-carousel">
-        <div class="owl-slide">
-        	<div class="item">
+	<agile>
+        <div class="slide">
+
 	            <img src="../assets/images/feed-a-child-3.jpg" alt="Slider">
-	            <div class="slider-pos">
-		            <div class="container">
-		            	<div class="wrap-caption">
-			                <h1 class="caption-heading bg"><span>Feed</span> Just A Child</h1>
-			                <p class="bg">"If you can’t feed a hundred people, then feed just one." - Mother Teresa</p>
-			            </div>  
-		            </div>
-	            </div>
-        	</div>
+
         </div>
-        <div class="owl-slide">
-        	<div class="item">
+        <div class="slide">
+        	
 	            <img src="../assets/images/feed-a-child-2.jpg" alt="Slider">
-	            <div class="slider-pos">
-	            <div class="container">
-	            	<div class="wrap-caption center">
-		                 <h1 class="caption-heading bg"><span>Feed</span> Just A Child</h1>
-			                <p class="bg">"If you can’t feed a hundred people, then feed just one." - Mother Teresa</p>
-		            </div>  
-	            </div>  
-	            </div>  
-            </div>  
+	            
+
         </div>
-        <div class="owl-slide">
-        	<div class="item">
+        <div class="slide">
+        	
 	            <img src="../assets/images/feed-a-child.jpg" alt="Slider">
-	            <div class="slider-pos">
-	            <div class="container">
-	            	<div class="wrap-caption right">
-		                <h1 class="caption-heading bg"><span>Feed</span> Just A Child</h1>
-			                <p class="bg">"If you can’t feed a hundred people, then feed just one." - Mother Teresa</p>
-		            </div>  
-	            </div>  
-	            </div>  
-            </div>  
+            
         </div>
-    </div>
+    </agile>
 
 	<div class="clearfix"></div>
   </div>
 </template>
 
 <script lang="ts">
+import { VueAgile } from 'vue-agile'
 export default {
   name : 'Banner',
+  components : {
+	  'agile' : VueAgile,
+  }
 }
 </script>
 <style scoped lang="scss">
+
+.agile__nav-button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  width: 80px;
+}
+.agile__nav-button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+.agile__nav-button--prev {
+  left: 0;
+}
+.agile__nav-button--next {
+  right: 0;
+}
+.agile__dots {
+  bottom: 10px;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.agile__dot {
+  margin: 0 10px;
+}
+.agile__dot button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  height: 10px;
+  font-size: 0;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  width: 10px;
+}
+.agile__dot--current button, .agile__dot:hover button {
+  background-color: #fff;
+}
+
+.slide {
+  display: block;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
 
 </style>
