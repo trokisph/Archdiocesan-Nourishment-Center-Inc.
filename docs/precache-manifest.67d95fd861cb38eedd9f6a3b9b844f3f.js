@@ -1,5 +1,9 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
+    "revision": "e1d88920154c0845f1bb29ff1e2b684f",
+    "url": "/.gh-pages.yml"
+  },
+  {
     "revision": "8db2bc35ece49c5ae403",
     "url": "/css/about.4f606eaa.css"
   },
