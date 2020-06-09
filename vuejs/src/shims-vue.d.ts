@@ -3,4 +3,5 @@ declare module '*.vue' {
   export default Vue
 }
 
-declare module 'vue-agile';
+declare module 'vue-carousel';
+declare module 'aos';

@@ -15,17 +15,17 @@
 					
 				</div>
 				<div class="row gutter-5">
-					<div class="col-6 col-md-3">
-						<a href="#"><img src="images/partner1.jpg" alt="" class="img-fluid"></a>
+					<div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="0">
+						<a href="#"><img src="../assets/images/partner1.jpg" alt="" class="img-fluid"></a>
 					</div>
-					<div class="col-6 col-md-3">
-						<a href="#"><img src="images/partner2.jpg" alt="" class="img-fluid"></a>
+					<div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="150">
+						<a href="#"><img src="../assets/images/partner2.jpg" alt="" class="img-fluid"></a>
 					</div>
-					<div class="col-6 col-md-3">
-						<a href="#"><img src="images/partner3.jpg" alt="" class="img-fluid"></a>
+					<div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+						<a href="#"><img src="../assets/images/partner3.jpg" alt="" class="img-fluid"></a>
 					</div>
-					<div class="col-6 col-md-3">
-						<a href="#"><img src="images/partner4.jpg" alt="" class="img-fluid"></a>
+					<div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="450">
+						<a href="#"><img src="../assets/images/partner4.jpg" alt="" class="img-fluid"></a>
 					</div>
 				</div>
 			</div>

@@ -51,11 +51,11 @@
 						          EVENTS
 			                    </router-link>
 			                </li>
-			                <li class="nav-item dropdown">
+			                <!-- <li class="nav-item dropdown">
 			                    <a class="nav-link" href="https://blog.ancdavao.com/">
 						          BLOG
 						        </a>
-			                </li>
+			                </li>-->
 			                <li class="nav-item">
 			                    <router-link class="nav-link" :to="{ name: 'ContactPage' }" >
                                     CONTACT US

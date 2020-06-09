@@ -29,7 +29,7 @@ export default {
   @import 'assets/css/vendor/magnific-popup.css';
   @import 'assets/css/vendor/animate.css';
   @import 'assets/css/sass/style.scss';
-
+  
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity .5s;

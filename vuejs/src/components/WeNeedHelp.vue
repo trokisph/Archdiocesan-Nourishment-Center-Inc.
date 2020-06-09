@@ -12,8 +12,9 @@
 						<p class="subheading text-center">Helping these children is what we do but we can't do it alone. We need you.</p>
 					</div>
 					<div class="clearfix"></div>
+
 					<!-- Item 1 -->
-					<div class="col-sm-4 col-md-4">
+					<div class="col-sm-4 col-md-4" data-aos="fade-up" data-aos-delay="0">
 			            <div class="box-fundraising">
 		              		<div class="media">
 		                		<img src="../assets/images/daily-feeding.jpg" alt="">
@@ -25,8 +26,9 @@
 		              		</div>
 			            </div>
 			        </div>
+
 			        <!-- Item 2 -->
-					<div class="col-sm-4 col-md-4">
+					<div class="col-sm-4 col-md-4" data-aos="fade-up" data-aos-delay="150">
 			            <div class="box-fundraising">
 		              		<div class="media">
 		                		<img src="../assets/images/educational-assistance.jpg" alt="">
@@ -37,18 +39,19 @@
 		              		</div>
 			            </div>
 			        </div>
-							        <!-- Item 2 -->
-									<div class="col-sm-4 col-md-4">
-							            <div class="box-fundraising">
-						              		<div class="media">
-						                		<img src="../assets/images/medical-dental.jpg" alt="">
-						              		</div>
-						              		<div class="body-content">
-						              			<p class="title"><router-link :to="{ name: 'MedicalDentalPage' }">MEDICAL-DENTAL SERVICES</router-link></p>
-						              			<div class="text">With the help of our partners, we are able to give access to free medical and dental checkups, laboratory assistance, and  medicines.</div>
-						              		</div>
-							            </div>
-							        </div>
+
+					<!-- Item 2 -->
+					<div class="col-sm-4 col-md-4" data-aos="fade-up" data-aos-delay="300">
+						<div class="box-fundraising">
+							<div class="media">
+								<img src="../assets/images/medical-dental.jpg" alt="">
+							</div>
+							<div class="body-content">
+								<p class="title"><router-link :to="{ name: 'MedicalDentalPage' }">MEDICAL-DENTAL SERVICES</router-link></p>
+								<div class="text">With the help of our partners, we are able to give access to free medical and dental checkups, laboratory assistance, and  medicines.</div>
+							</div>
+						</div>
+					</div>
 
 					<div class="col-sm-12 col-md-12">
 						<div class="spacer-50"></div>

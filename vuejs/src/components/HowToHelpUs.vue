@@ -6,11 +6,11 @@
 			<div class="container">
 				<div class="row align-items-end">
 
-					<div class="col-sm-6 col-md-6">
+					<div class="col-sm-6 col-md-6" data-aos="fade-up" data-aos-delay="0">
 						<img src="../assets/images/help1.png" alt="" class="img-fluid">
 					</div>
 
-					<div class="col-sm-6 col-md-6">
+					<div class="col-sm-6 col-md-6" data-aos="fade-up" data-aos-delay="150">
 						<h2 class="section-heading">
 							How To <span>Help</span> Us
 						</h2>
@@ -44,7 +44,7 @@
 							</dd>
 
 							<dt><span class="fa fa-cutlery"></span></dt>
-							<dd><div class="no">04</div><h3>Sponsor a day</h3>
+							<dd><div class="no">05</div><h3>Sponsor a day</h3>
 
 							</dd>
 

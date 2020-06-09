@@ -1,8 +1,8 @@
 <template>
   <div>
       <PageHeader title="Our Centers" className="about-page" />
-      <CallToAction />
       <Centers />
+      <CallToAction />
   </div>
 </template>
 

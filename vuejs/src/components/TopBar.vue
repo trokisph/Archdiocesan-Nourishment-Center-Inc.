@@ -9,8 +9,8 @@
 					</div>
 					<div class="col-sm-5 col-md-6">
 						<div class="sosmed-icon pull-right">
-							<a href="https://www.facebook.com/archdiocesannourishmentcenter/"><i class="fa fa-facebook"></i></a> 
-							<!--<a href="#"><i class="fa fa-twitter"></i></a>--> 
+							<a target="_blank" href="https://www.facebook.com/archdiocesannourishmentcenter/"><i class="fa fa-facebook"></i></a> 
+							<a target="_blank" href="https://www.linkedin.com/company/archdiocesan-nourishment-center/"><i class="fa fa-linkedin"></i></a>
 							<!--<a href="#"><i class="fa fa-instagram"></i></a> -->
 							<!--<a href="#"><i class="fa fa-pinterest"></i></a>--> 
 						</div>

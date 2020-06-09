@@ -5,7 +5,7 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="col-sm-6 col-md-6">
+					<div class="col-sm-6 col-md-6"  data-aos="fade-up" data-aos-delay="0">
 						<h2 class="section-heading">
 							Fatima <span>Center</span>
 						</h2>
@@ -14,7 +14,7 @@
 						
 					</div>
 
-					<div class="col-sm-6 col-md-6">
+					<div class="col-sm-6 col-md-6" data-aos="fade-up" data-aos-delay="150">
 						
 						<img src="../assets/images/anc-building.jpg" alt="" class="img-fluid img-border">
 
@@ -27,13 +27,13 @@
 
 				<div class="row">
 
-					<div class="col-sm-6 col-md-6">
+					<div class="col-sm-6 col-md-6" data-aos="fade-up" data-aos-delay="0">
 						
 						<img src="../assets/images/anc-building.jpg" alt="" class="img-fluid img-border">
 
 					</div>
 					
-					<div class="col-sm-6 col-md-6">
+					<div class="col-sm-6 col-md-6" data-aos="fade-up" data-aos-delay="150">
 						<h2 class="section-heading">
 							Bucana <span>Center</span>
 						</h2>

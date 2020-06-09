@@ -6,7 +6,7 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="col-sm-6 col-md-6">
+					<div class="col-sm-6 col-md-6" data-aos="fade-up" data-aos-delay="0" >
 						<h2 class="section-heading">
 							Archdiocesan <span>Nourishment</span> Center
 						</h2>
@@ -20,7 +20,7 @@
 
 					</div>
 
-					<div class="col-sm-6 col-md-6">
+					<div class="col-sm-6 col-md-6" data-aos="fade-up" data-aos-delay="150">
 						
 						<img src="../assets/images/anc-building.jpg" alt="" class="img-fluid img-border">
 
@@ -33,7 +33,7 @@
 
 				<div class="row">
 
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-3 col-md-3" data-aos="fade-up" data-aos-delay="0">
 						<div class="rs-icon-funfact style-2">
 							<div class="icon">
 								<i class="fa fa-file-text-o"></i>
@@ -45,7 +45,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-3 col-md-3" data-aos="fade-up" data-aos-delay="150">
 						<div class="rs-icon-funfact style-2">
 							<div class="icon">
 								<i class="fa fa-users"></i>
@@ -57,7 +57,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-3 col-md-3" data-aos="fade-up" data-aos-delay="300">
 						<div class="rs-icon-funfact style-2">
 							<div class="icon">
 								<i class="fa fa-trophy"></i>
@@ -69,7 +69,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-3 col-md-3" data-aos="fade-up" data-aos-delay="450">
 						<div class="rs-icon-funfact style-2">
 							<div class="icon">
 								<i class="fa fa-male"></i>
