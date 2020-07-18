@@ -16,6 +16,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CNAME"
   },
   {
+    "revision": "6a02faf7ea2a9584134ffe15779a0e44",
+    "url": "/_redirects"
+  },
+  {
     "revision": "7d721f218eda476039ef",
     "url": "/css/about.865b15c7.css"
   },
