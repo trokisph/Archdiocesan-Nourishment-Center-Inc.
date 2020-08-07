@@ -7,12 +7,13 @@
 
 					<div class="col-sm-8 col-md-8" data-aos="fade-up" :data-aos-delay="0">
 
-            <h2 class="section-heading">Donate</h2>
-            <div class="section-subheading">Bank Accounts</div> 
-            <div class="margin-bottom-50"></div>
-            <p>BDO Network Bank<br />
-            Account Name: Archdiocesan Nourishment Center<br />
-            Account Number: 04102-00000-48</p>
+            <h2 class="section-heading">Donate thru Bank</h2>
+            
+            <p><strong>BDO NETWORK BANK</strong> (formerly One Network Bank)<br />
+            Account Name: <strong>Archdiocesan Nourishment Center</strong><br />
+            Account Number: <strong>04102-00000-48</strong><br />
+			Branch: <strong>HCDC - Davao</strong></p>
+
 						<h2 class="section-heading">
 							Other <span>Ways</span> to Help
 						</h2>
@@ -51,23 +52,7 @@
 
 					</div>
 
-					<div class="col-sm-4 col-md-4" data-aos="fade-up" :data-aos-delay="150">
-
-						<div class="spacer-30"></div>
-
-						<div class="rs-box-download block">
-							<div class="icon">
-								<i class="fa fa-file-pdf-o"></i>
-							</div>
-							<div class="body">
-								<a href="https://drive.google.com/open?id=1NOCGdyn9X3YlUYNYcLKi0eRwtTGwvtzH" target="_blank">
-									<h3>Download Brochure</h3>
-									Click here to download .PDF
-								</a>
-							</div>
-						</div>
-
-					</div>
+					<SidebarDonate />
 
 				</div>
 			</div>
@@ -77,8 +62,14 @@
 </template>
 
 <script lang="ts">
+
+import SidebarDonate from '@/components/SidebarDonate.vue'
+
 export default {
   name : 'HowToHelpUs2',
+  components: {
+	  SidebarDonate
+  }
 }
 </script>
 <style scoped lang="scss">

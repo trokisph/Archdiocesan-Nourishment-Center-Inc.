@@ -23,7 +23,8 @@
                           </div>
                           <div class="body-content">
                             <p class="title">
-                              <router-link :to="{ name: program.to }">{{ program.title }}</router-link>
+                              <!--<router-link :to="{ name: program.to }">{{ program.title }}</router-link>-->
+                              <a href="#">{{ program.title }}</a>
                             </p>
                             <div
                               class="text"

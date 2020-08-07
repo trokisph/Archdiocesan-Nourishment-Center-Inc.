@@ -42,6 +42,12 @@ const mainRoutes: Array<RouteConfig> = [
   },
 
   {
+    path: '/donate',
+    name: 'DonatePage',
+    component: () => import(/* webpackChunkName: "how-to-help" */ '../views/HowToHelpPage.vue'),
+  },
+
+  {
     path: '/our-staff',
     name: 'StaffPage',
     component: () => import(/* webpackChunkName: "our-staff" */ '../views/StaffPage.vue'),
@@ -51,6 +57,42 @@ const mainRoutes: Array<RouteConfig> = [
     path: '/testimonials',
     name: 'TestimonialsPage',
     component: () => import(/* webpackChunkName: "our-staff" */ '../views/TestimonialsPage.vue'),
+  },
+
+  {
+    path: '/donate/paypal',
+    name: 'DonatePaypal',
+    component: () => import(/* webpackChunkName: "our-staff" */ '../views/DonatePaypalPage.vue'),
+  },
+
+  {
+    path: '/donate/paymaya',
+    name: 'DonatePaymaya',
+    component: () => import(/* webpackChunkName: "our-staff" */ '../views/DonatePaymayaPage.vue'),
+  },
+
+  {
+    path: '/donate/thank-you',
+    name: 'DonateCompletedPage',
+    component: () => import(/* webpackChunkName: "our-staff" */ '../views/DonateCompletedPage.vue'),
+  },
+
+  {
+    path: '/pledges',
+    name: 'Pledges',
+    component: () => import(/* webpackChunkName: "our-staff" */ '../views/PledgesPage.vue'),
+  },
+
+  {
+    path: '/pledge/one-dollar-monthly',
+    name: 'PledgeOneDollarMonthly',
+    component: () => import(/* webpackChunkName: "our-staff" */ '../views/PledgeOneDollarMonthlyPage.vue'),
+  },
+
+  {
+    path: '/pledge/50-pesos-monthly',
+    name: 'Pledge50PesosMonthly',
+    component: () => import(/* webpackChunkName: "our-staff" */ '../views/Pledge50PesosMonthlyPage.vue'),
   },
 
 ];

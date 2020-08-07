@@ -10,6 +10,9 @@ Vue.use(VueCarousel);
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import LoadScript from 'vue-plugin-load-script';
+Vue.use(LoadScript);
+
 Vue.config.productionTip = false
 
 /* Mixins */
