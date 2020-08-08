@@ -5,3 +5,9 @@ declare module '*.vue' {
 
 declare module 'vue-carousel';
 declare module 'aos';
+declare module 'vue-paypal-checkout';
+declare module 'vue-plugin-load-script';
+
+interface Window {
+  paypal?: any;
+}

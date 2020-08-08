@@ -98,7 +98,7 @@ const mainRoutes: Array<RouteConfig> = [
 ];
 
 const newRoutes = mainRoutes.concat( programsRoutes );
-let newSet = new Set( newRoutes );
+const newSet = new Set( newRoutes );
 const routes = Array.from(newSet);
 
 const router = new VueRouter({

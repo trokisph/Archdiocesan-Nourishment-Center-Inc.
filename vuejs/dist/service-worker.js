@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.5bfcfd0acba8ba85ea118d4ca1a4c91d.js"
+  "/precache-manifest.0334157aaeecc957a688dde355c304fd.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "ancdavao.com"});
