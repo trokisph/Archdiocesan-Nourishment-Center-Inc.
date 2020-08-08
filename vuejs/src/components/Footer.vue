@@ -7,7 +7,7 @@
 			<div class="container">
 				
 				<div class="row">
-					<div class="col-sm-3 col-md-3" data-aos="fade-up" :data-aos-delay="0">
+					<div class="col-sm-4 col-md-4" data-aos="fade-up" :data-aos-delay="0">
 						<div class="footer-item">
 							<img src="../assets/images/logo2.png" alt="logo bottom" class="logo-bottom">
 							<div class="spacer-30"></div>
@@ -16,7 +16,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-3 col-md-3" data-aos="fade-up" :data-aos-delay="150">
+					<div class="col-sm-4 col-md-4" data-aos="fade-up" :data-aos-delay="150">
 						<div class="footer-item">
 							<div class="footer-title">
 								WHO WE ARE
@@ -27,7 +27,7 @@
 									<ul class="list">
 										<router-link tag="li" :to="{ name: 'AboutPage' }"><a>About us</a></router-link>
 										<router-link tag="li" :to="{ name: 'ProgramsPage' }"><a>Programs & Services</a></router-link>
-										<router-link tag="li" :to="{ name: 'TestimonialsPage' }"><a>Testimonials</a></router-link>
+										<!--<router-link tag="li" :to="{ name: 'TestimonialsPage' }"><a>Testimonials</a></router-link>-->
 										<li><a href="https://www.facebook.com/pg/archdiocesannourishmentcenter/photos/?tab=albums&ref=page_internal" title="Gallery">Gallery</a></li>
 										<router-link tag="li" :to="{ name: 'HowToHelpPage' }"><a>How to Help</a></router-link>
 									</ul>
@@ -43,7 +43,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-3 col-md-3" data-aos="fade-up" :data-aos-delay="300">
+					<div class="col-sm-4 col-md-4" data-aos="fade-up" :data-aos-delay="300">
 						<div class="footer-item">
 							<div class="footer-title">
 								WHERE WE WORK
@@ -75,23 +75,17 @@
 									</div>
 								</li>
 							</ul>
-
-						</div>
-					</div>
-					
-					<div class="col-sm-3 col-md-3" data-aos="fade-up" :data-aos-delay="450">
-						<div class="footer-item">
-							<div class="footer-title">
-								FOLLOW US
-							</div>
 							<div class="sosmed-icon primary">
 								<a target="_blank" href="https://www.facebook.com/archdiocesannourishmentcenter/"><i class="fa fa-facebook"></i></a> 
 								<a target="_blank" href="https://www.linkedin.com/company/archdiocesan-nourishment-center/"><i class="fa fa-linkedin"></i></a>
 								<!--<a href="#"><i class="fa fa-instagram"></i></a> -->
 								<!--<a href="#"><i class="fa fa-pinterest"></i></a>--> 
 							</div>
+
 						</div>
 					</div>
+					
+					
 				</div>
 			</div>
 		</div>
@@ -101,7 +95,7 @@
 				<div class="row">
 					<div class="col-sm-12 col-md-12">
 						<p class="pull-right">Made with &#10084; by <a href="https://www.davao.me/" target="_blank" class="color-primary">Davao IT Solutions</a></p>
-						<p class="ftex">Copyright 2019 &copy; <span class="color-primary">Archdiocesan Nourishment Center</span></p> 
+						<p class="ftex">Copyright {{ currentYear }} &copy; <span class="color-primary">Archdiocesan Nourishment Center</span></p> 
 					</div>
 				</div>
 			</div>
@@ -118,8 +112,10 @@
 
 export default {
   name: 'Footer',
-  components: {
-    //Home
+  data() {
+	  return {
+		  currentYear: new Date().getFullYear()
+	  }
   }
 }
 </script>

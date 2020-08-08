@@ -17,6 +17,13 @@ const mainRoutes: Array<RouteConfig> = [
     name: 'AboutPage',
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutPage.vue'),
   },
+
+  {
+    path: '/history',
+    name: 'HistoryPage',
+    component: () => import(/* webpackChunkName: "our-staff" */ '../views/HistoryPage.vue'),
+  },
+
   {
     path: '/contact-us',
     name: 'ContactPage',

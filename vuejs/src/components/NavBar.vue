@@ -27,6 +27,9 @@
                                         <router-link class="dropdown-item" :to="{ name: 'AboutPage' }" >
                                          About ANC
                                         </router-link>
+										<router-link class="dropdown-item" :to="{ name: 'HistoryPage' }" >
+                                         History
+                                        </router-link>
                                         <router-link class="dropdown-item" :to="{ name: 'CentersPage' }" >
                                          Our Centers
                                         </router-link>
@@ -51,11 +54,11 @@
 						          EVENTS
 			                    </router-link>
 			                </li>
-			                <!-- <li class="nav-item dropdown">
+			                 <li class="nav-item dropdown">
 			                    <a class="nav-link" href="https://blog.ancdavao.com/">
 						          BLOG
 						        </a>
-			                </li>-->
+			                </li>
 			                <li class="nav-item">
 			                    <router-link class="nav-link" :to="{ name: 'ContactPage' }" >
                                     CONTACT US

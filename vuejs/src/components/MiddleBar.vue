@@ -50,3 +50,14 @@ export default {
   }
 }
 </script>
+<style scoped lang="scss">
+.contact-info {
+	margin-top: 10px;
+}
+.box-icon-1 .body-content {
+	margin-top: 10px;
+}
+.box-icon-1 .box-act {
+	margin-top: 0px;
+}
+</style>

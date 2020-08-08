@@ -103,7 +103,7 @@ export default {
 			{
 			  	name : 'Sr. Violy',
 				position: 'Operations In-charge - Fatima',
-				image : require('../assets/images/dummy-img-400x400.jpg'),
+				image : require('../assets/images/sr_violy.png'),
 				facebook_url : '#',
 				twitter_url : '#',
 				linkedin_url : '#',
@@ -111,7 +111,7 @@ export default {
 			{
 			  	name : 'Sr. Merge',
 				position: 'Operations In-charge - Bucana',
-				image : require('../assets/images/dummy-img-400x400.jpg'),
+				image : require('../assets/images/sr-merge.png'),
 				facebook_url : '#',
 				twitter_url : '#',
 				linkedin_url : '#',
@@ -127,7 +127,7 @@ export default {
 			{
 			  	name : 'Narsing',
 				position: 'Bucana Staff',
-				image : require('../assets/images/dummy-img-400x400.jpg'),
+				image : require('../assets/images/narsing.jpg'),
 				facebook_url : '#',
 				twitter_url : '#',
 				linkedin_url : '#',
@@ -135,7 +135,7 @@ export default {
 			{
 			  	name : 'Teddy',
 				position: 'Fatima Cook',
-				image : require('../assets/images/dummy-img-400x400.jpg'),
+				image : require('../assets/images/teddy.jpg'),
 				facebook_url : '#',
 				twitter_url : '#',
 				linkedin_url : '#',
@@ -143,7 +143,7 @@ export default {
 			{
 			  	name : 'Adon',
 				position: 'Bucana Cook',
-				image : require('../assets/images/dummy-img-400x400.jpg'),
+				image : require('../assets/images/adon.jpg'),
 				facebook_url : '#',
 				twitter_url : '#',
 				linkedin_url : '#',
@@ -161,7 +161,7 @@ export default {
 		{
 			  	name : 'Ate Merlyn',
 				position: 'Fatima',
-				image : require('../assets/images/dummy-img-400x400.jpg'),
+				image : require('../assets/images/ate-merlyn.jpg'),
 				facebook_url : '#',
 				twitter_url : '#',
 				linkedin_url : '#',
@@ -175,9 +175,9 @@ export default {
 				linkedin_url : '#',
 			},
 			{
-			  	name : 'Ate Sali',
-				position: 'Fatima',
-				image : require('../assets/images/dummy-img-400x400.jpg'),
+			  	name : 'Ate Rita',
+				position: 'Bucana',
+				image : require('../assets/images/rita.jpg'),
 				facebook_url : '#',
 				twitter_url : '#',
 				linkedin_url : '#',

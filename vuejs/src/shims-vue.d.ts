@@ -7,6 +7,7 @@ declare module 'vue-carousel';
 declare module 'aos';
 declare module 'vue-paypal-checkout';
 declare module 'vue-plugin-load-script';
+declare module 'vue-slick-carousel';
 
 interface Window {
   paypal?: any;
